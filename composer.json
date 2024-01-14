@@ -1,0 +1,22 @@
+{
+    "name": "mageit/module-sitemap",
+    "description": "Split xml sitemap ",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Tal Shulgin",
+            "email": "shulgin23@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mageit\\Sitemap\\": ""
+        }
+    }
+}
